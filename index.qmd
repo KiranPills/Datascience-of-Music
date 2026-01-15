@@ -1,0 +1,45 @@
+---
+title: Everyday Music Listening
+author: John Ashley Burgoyne
+format:
+  dashboard:
+    orientation: columns
+---
+
+```{r setup}
+#| include: false
+library(tidyverse)
+```
+
+# Page 1
+
+## {.sidebar}
+
+This is a sidebar for the first page. Many students like to add general text descriptions here.
+
+## Column 1 {width=60%}
+
+```{r}
+#| title: Chart 1
+ggplot()
+```
+
+## Column 2 {width=40%}
+
+### Row 1 
+
+This is more text. Below it, you'll see another row with a tabset.
+
+### Row 2 {.tabset}
+
+```{r}
+#| title: Chart 2
+ggplot()
+```
+
+```{r}
+#| title: Chart 3
+ggplot()
+```
+
+# Page 2
