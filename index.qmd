@@ -7,8 +7,10 @@ format:
 ---
 
 ```{r setup}
-#| include: false
 library(tidyverse)
+library(readxl)
+
+survey_data <- read_excel("Everyday data science of music listening_January 21, 2026_09.38 5.xlsx")
 ```
 
 # Page 1
@@ -21,7 +23,9 @@ This is a sidebar for the first page. Many students like to add general text des
 
 ```{r}
 #| title: Chart 1
-ggplot()
+ggplot(survey_data, aes(x = `How often do you listen to music?`)) +
+  geom_bar(fill = "steelblue") +
+  theme_minimal()
 ```
 
 ## Column 2 {width=40%}

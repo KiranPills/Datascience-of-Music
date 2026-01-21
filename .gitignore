@@ -1,4 +1,15 @@
+# R files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# Other tool settings
+.j/
+
+# Excel temporary files
+~$*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
