@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+$purple-dark: #5B2C6F;
+$purple-main: #7D3C98;
+$purple-light: #9B59B6;
+
+$primary: $purple-main;
+$navbar-bg: $purple-dark;
+$navbar-fg: #ffffff;
+
+/*-- scss:rules --*/
+.navbar {
+  background: linear-gradient(135deg, #5B2C6F 0%, #7D3C98 100%) !important;
+}
+
+.navbar-brand, .navbar-title-text a, .navbar-author,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #ffffff !important;
+  color: #5B2C6F !important;
+}
+
+.sidebar {
+  background-color: #F5EEF8;
+  border-right: 3px solid #7D3C98;
+}

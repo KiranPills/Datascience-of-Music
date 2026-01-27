@@ -66,80 +66,8 @@ p_scatter_dual_group <- ggplot(
 save_plot(p_scatter_dual_group, "03_scatter_dual_group.png", plots_multivariate)
 
 # ============================================================
-# B. FACETED PLOTS
+# B. STACKED BAR CHARTS
 # ============================================================
-
-# Plot 4: Faceted by Song - Emotional vs Valence
-p_facet_by_song <- ggplot(
-  survey_long,
-  aes(x = valence_num, y = emotional_num, color = listening_freq)
-) +
-  geom_jitter(alpha = 0.6, size = 2, width = 0.2, height = 0.2) +
-  facet_wrap(~ song, ncol = 3) +
-  scale_color_manual(values = palette_listening_freq, na.value = "gray50") +
-  labs(
-    title = "Emotional Intensity vs. Valence Across All Songs",
-    x = "Valence",
-    y = "Emotional Intensity",
-    color = "Listening Freq"
-  )
-
-save_plot(p_facet_by_song, "04_facet_by_song.png", plots_multivariate, width = 12, height = 8)
-
-# Plot 5: Faceted density plots by training
-p_facet_density <- ggplot(
-  survey_long %>% filter(!is.na(training_ordered)),
-  aes(x = emotional_num, fill = training_ordered)
-) +
-  geom_density(alpha = 0.5) +
-  facet_wrap(~ song, ncol = 2) +
-  scale_fill_brewer(palette = "Blues") +
-  labs(
-    title = "Emotional Intensity Distributions by Musical Training",
-    x = "Emotional Intensity",
-    y = "Density",
-    fill = "Years Training"
-  )
-
-save_plot(p_facet_density, "05_facet_density_training.png", plots_multivariate, height = 12)
-
-# ============================================================
-# C. GROUPED BAR CHARTS
-# ============================================================
-
-# Prepare summary for bar charts
-bar_summary <- survey_long %>%
-  filter(!is.na(listening_freq)) %>%
-  group_by(song, listening_freq) %>%
-  summarize(
-    mean_emotional = mean(emotional_num, na.rm = TRUE),
-    se_emotional = sd(emotional_num, na.rm = TRUE) / sqrt(n()),
-    .groups = "drop"
-  )
-
-# Plot 6: Grouped bar chart with error bars
-p_grouped_bar <- ggplot(
-  bar_summary,
-  aes(x = song, y = mean_emotional, fill = listening_freq)
-) +
-  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
-  geom_errorbar(
-    aes(ymin = mean_emotional - se_emotional,
-        ymax = mean_emotional + se_emotional),
-    position = position_dodge(width = 0.8),
-    width = 0.25
-  ) +
-  scale_fill_manual(values = palette_listening_freq) +
-  labs(
-    title = "Mean Emotional Intensity by Song and Listening Frequency",
-    subtitle = "Error bars show standard error",
-    x = "Song",
-    y = "Mean Emotional Intensity",
-    fill = "Listening Frequency"
-  ) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
-save_plot(p_grouped_bar, "06_grouped_bar_emotional.png", plots_multivariate)
 
 # Plot 7: Stacked bar chart for element influence
 element_summary <- survey_long %>%
@@ -166,50 +94,20 @@ p_stacked_bar <- ggplot(
 save_plot(p_stacked_bar, "07_stacked_bar_elements.png", plots_multivariate)
 
 # ============================================================
-# D. BOX PLOTS BY GROUP
+# C. LANGUAGE GROUP COMPARISON (B1+ English with French/Spanish)
 # ============================================================
 
-# Plot 8: Box plot by listening frequency with jittered points
-p_box_listening <- ggplot(
-  survey_long %>% filter(!is.na(listening_freq)),
-  aes(x = listening_freq, y = emotional_num, fill = listening_freq)
-) +
-  geom_boxplot(alpha = 0.7, outlier.shape = NA) +
-  geom_jitter(alpha = 0.3, width = 0.2, size = 1.5) +
-  scale_fill_manual(values = palette_listening_freq) +
-  labs(
-    title = "Emotional Intensity by Listening Frequency",
-    x = "Listening Frequency",
-    y = "Emotional Intensity"
-  ) +
-  theme(legend.position = "none")
+# Define palette for language groups
+palette_language <- c(
+  "English only" = "#2E86AB",
+  "English + French" = "#A23B72",
+  "English + Spanish" = "#F18F01"
+)
 
-save_plot(p_box_listening, "08_box_listening_freq.png", plots_multivariate, width = 8, height = 6)
-
-# Plot 9: Box plot faceted by song, grouped by age
-p_box_age_song <- ggplot(
-  survey_long %>% filter(!is.na(age_range)),
-  aes(x = age_range, y = valence_num, fill = age_range)
-) +
-  geom_boxplot(alpha = 0.7) +
-  facet_wrap(~ song, ncol = 3) +
-  scale_fill_manual(values = palette_age) +
-  labs(
-    title = "Valence Ratings by Age Range Across Songs",
-    x = "Age Range",
-    y = "Valence"
-  ) +
-  theme(
-    axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
-    legend.position = "none"
-  )
-
-save_plot(p_box_age_song, "09_box_age_song.png", plots_multivariate, width = 12, height = 8)
-
-# Plot 10: Comparative box plots (multiple DVs side by side)
-comparison_long <- survey_long %>%
-  filter(!is.na(listening_freq)) %>%
-  select(response_id, song, listening_freq,
+# Plot 12: Box plot comparing all measures by language group
+language_comparison <- survey_long %>%
+  filter(!is.na(language_group)) %>%
+  select(response_id, song, language_group,
          emotional_num, familiarity_num, valence_num, comprehension_num) %>%
   pivot_longer(
     cols = ends_with("_num"),
@@ -226,45 +124,25 @@ comparison_long <- survey_long %>%
     )
   )
 
-p_box_comparison <- ggplot(
-  comparison_long,
-  aes(x = measure, y = score, fill = listening_freq)
+p_language_comparison <- ggplot(
+  language_comparison,
+  aes(x = measure, y = score, fill = language_group)
 ) +
   geom_boxplot(alpha = 0.7, position = position_dodge(width = 0.8)) +
-  scale_fill_manual(values = palette_listening_freq) +
+  geom_point(
+    position = position_jitterdodge(jitter.width = 0.15, dodge.width = 0.8),
+    alpha = 0.3, size = 1.5
+  ) +
+  scale_fill_manual(values = palette_language) +
   labs(
-    title = "All Measures Compared by Listening Frequency",
+    title = "Music Responses by Language Background",
+    subtitle = "Comparing B1+ English speakers: English only vs. with French vs. with Spanish",
     x = "Measure",
     y = "Score",
-    fill = "Listening Frequency"
+    fill = "Language Group"
   )
 
-save_plot(p_box_comparison, "10_box_comparison.png", plots_multivariate)
-
-# Plot 11: Memory trigger by song and listening frequency
-memory_summary <- survey_long %>%
-  filter(!is.na(memory), !is.na(listening_freq)) %>%
-  count(song, listening_freq, memory) %>%
-  group_by(song, listening_freq) %>%
-  mutate(pct = n / sum(n) * 100)
-
-p_memory_stacked <- ggplot(
-  memory_summary,
-  aes(x = song, y = pct, fill = memory)
-) +
-  geom_col(position = "stack") +
-  facet_wrap(~ listening_freq, ncol = 1) +
-  scale_fill_manual(values = c("Yes" = "#2E86AB", "No" = "#F18F01", "Maybe" = "#A23B72")) +
-  labs(
-    title = "Did Songs Trigger Personal Memories?",
-    subtitle = "By listening frequency group",
-    x = "Song",
-    y = "Percentage",
-    fill = "Memory Triggered"
-  ) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
-save_plot(p_memory_stacked, "11_memory_trigger.png", plots_multivariate, height = 10)
+save_plot(p_language_comparison, "12_language_group_comparison.png", plots_multivariate)
 
 cat("\n=== Multivariate plots complete! ===\n")
 cat("Output folder:", plots_multivariate, "\n")

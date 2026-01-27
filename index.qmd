@@ -1,49 +1,191 @@
 ---
-title: Everyday Music Listening
-author: John Ashley Burgoyne
+title: "Everyday Music Listening"
+author: "John Ashley Burgoyne"
 format:
   dashboard:
     orientation: columns
+    theme: custom.scss
 ---
 
-```{r setup}
-library(tidyverse)
-library(readxl)
-
-survey_data <- read_excel("Everyday data science of music listening_January 21, 2026_09.38 5.xlsx")
-```
-
-# Page 1
+# Main Page
 
 ## {.sidebar}
 
-This is a sidebar for the first page. Many students like to add general text descriptions here.
+**Research Focus**
+
+WIP
+
+---
+
+**Songs Analyzed**
+
+- Solo - Clean Bandit (Original)
+- Solo (Spanish Cover)
+- Lost on You - LP (Original)
+- Lost on You (Spanish Cover)
+- Issues - Julia Michaels (Original)
+- Issues (French Cover)
+
+---
+
+**Key Measures**
+
+WIP
 
 ## Column 1 {width=60%}
 
 ```{r}
-#| title: Chart 1
-ggplot(survey_data, aes(x = `How often do you listen to music?`)) +
-  geom_bar(fill = "steelblue") +
-  theme_minimal()
+#| title: Emotional Response vs Valence by Song
+#| padding: 0px
+knitr::include_graphics("selected_plots/01_scatter_emotion_valence.png")
 ```
 
 ## Column 2 {width=40%}
 
-### Row 1 
+### Row 1 {height=30%}
 
-This is more text. Below it, you'll see another row with a tabset.
+**Key Finding**
+
+WIP
 
 ### Row 2 {.tabset}
 
 ```{r}
-#| title: Chart 2
-ggplot()
+#| title: Language Groups
+#| padding: 0px
+knitr::include_graphics("selected_plots/12_language_group_comparison.png")
 ```
 
 ```{r}
-#| title: Chart 3
-ggplot()
+#| title: Musical Elements
+#| padding: 0px
+knitr::include_graphics("selected_plots/07_stacked_bar_elements.png")
 ```
 
-# Page 2
+# The Participants
+
+## {.sidebar}
+
+**Demographics Overview**
+
+WIP
+
+---
+
+**Language Groups**
+
+- **English only**: B1+ English, no Spanish/French
+- **English + French**: B1+ in both
+- **English + Spanish**: B1+ in both
+
+---
+
+**Musical Training**
+
+- 0 years (no formal training)
+- 1-2 years
+- 3-5 years
+- 6+ years
+
+---
+
+**Age Ranges**
+
+18-20, 21-25, 26-30, 31-35, 36-40, 41+
+
+## Column 1 {width=50%}
+
+```{r}
+#| title: Familiarity vs Comprehension
+#| padding: 0px
+knitr::include_graphics("selected_plots/02_scatter_familiar_comp.png")
+```
+
+## Column 2 {width=50%}
+
+```{r}
+#| title: Dual Group Comparison
+#| padding: 0px
+knitr::include_graphics("selected_plots/03_scatter_dual_group.png")
+```
+
+# Background
+
+## {.sidebar}
+
+**Research Questions**
+
+WIP
+
+## Column 1 {width=50%}
+
+### Study Overview
+
+WIP
+
+**Methodology**
+
+WIP
+
+### Data Collection
+
+WIP
+
+## Column 2 {width=50%}
+
+### Songs in the Study
+
+WIP
+
+### Measures Used
+
+WIP
+
+# Extras
+
+## {.sidebar}
+
+**Visualization Gallery**
+
+WIP
+
+---
+
+**Plot Types**
+
+- **Ridgeline**: Distribution overlap across songs
+- **Heatmap**: Song-level response patterns
+- **Violin**: Group comparisons
+- **Dumbbell**: Paired differences
+
+## Column 1 {width=50%}
+
+### {.tabset}
+
+```{r}
+#| title: Ridgeline
+#| padding: 0px
+knitr::include_graphics("visualizations/plots/advanced/01_ridgeline_emotion.png")
+```
+
+```{r}
+#| title: Heatmap
+#| padding: 0px
+knitr::include_graphics("visualizations/plots/advanced/05_heatmap_songs.png")
+```
+
+## Column 2 {width=50%}
+
+### {.tabset}
+
+```{r}
+#| title: Violin
+#| padding: 0px
+knitr::include_graphics("visualizations/plots/advanced/07_violin_basic.png")
+```
+
+```{r}
+#| title: Dumbbell
+#| padding: 0px
+knitr::include_graphics("visualizations/plots/advanced/10_dumbbell.png")
+```

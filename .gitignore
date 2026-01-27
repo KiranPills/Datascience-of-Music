@@ -7,6 +7,13 @@
 # Other tool settings
 .j/
 
+# Claude Code local files
+.claude/
+
+# Quarto build artifacts
+index_files/
+*_files/
+
 # Excel temporary files
 ~$*.xlsx
 
