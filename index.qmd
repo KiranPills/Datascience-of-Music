@@ -13,7 +13,13 @@ format:
 
 **Research Focus**
 
-WIP
+Music is an integral part of everyday life and has the ability to evoke strong emotional responses, even when listeners do not understand the language of a song. While lyrics convey semantic meaning that may influence emotional interpretation, listeners often report similar emotional experiences when hearing cover versions in unfamiliar languages, suggesting that melody, rhythm, and vocal expression may play a more dominant role than lyrical comprehension.
+
+This raises an important question about what truly shapes emotional responses to music: the meaning of the lyrics or the musical features themselves?
+
+**Research Question**
+
+*To what extent do lyrics, compared to melody, influence emotional responses to music?*
 
 ---
 
@@ -68,7 +74,23 @@ knitr::include_graphics("selected_plots/07_stacked_bar_elements.png")
 
 **Demographics Overview**
 
-WIP
+**N = 32** completed responses
+
+**Age Distribution**
+
+- 87.5% aged 18-25
+- Young adult sample
+
+**Music Engagement**
+
+- 81% daily listeners
+- 56% have musical training
+
+**Language Proficiency**
+
+- 56% advanced English (C1-C2)
+- 9% French B1+
+- 6% Spanish B1+
 
 ---
 
