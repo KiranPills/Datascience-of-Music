@@ -11,8 +11,9 @@
 .claude/
 
 # Quarto build artifacts
-index_files/
+# index_files/ - needed for GitHub Pages
 *_files/
+!index_files/
 
 # Excel temporary files
 ~$*.xlsx
