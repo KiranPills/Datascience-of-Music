@@ -1,6 +1,6 @@
 # Datascience of Music
 
-Dashboard: https://doodlebangers.github.io/Datascience-of-Music/
+Dashboard: https://kiranpills.github.io/Datascience-of-Music/
 
 ## What's Included
 - Emotional responses to music across different languages
