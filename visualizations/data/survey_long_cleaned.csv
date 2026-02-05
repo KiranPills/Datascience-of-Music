@@ -1,0 +1,235 @@
+response_id;listening_freq;musical_training;english_level;age_range;french_b1;spanish_b1;song_num;emotional;familiarity;valence;comprehension;memory;song;emotional_num;familiarity_num;valence_num;comprehension_num;element;training_ordered;english_simple;language_group
+R_7q35ETwaO2ydiNO;Daily;03/May;C1;18-20;No;No;1;6;5;7;5;3;Solo - Clean Bandit (Original);6;5;7;5;Lyrics;03/May;C1;English only
+R_7q35ETwaO2ydiNO;Daily;03/May;C1;18-20;No;No;2;6;5;6;1;3;Solo (Spanish Cover);6;5;6;1;Lyrics;03/May;C1;English only
+R_7q35ETwaO2ydiNO;Daily;03/May;C1;18-20;No;No;3;5;4;5;5;3;Lost on You - LP (Original);5;4;5;5;Lyrics;03/May;C1;English only
+R_7q35ETwaO2ydiNO;Daily;03/May;C1;18-20;No;No;4;4;3;5;1;3;Lost on You (Spanish Cover);4;3;5;1;Lyrics;03/May;C1;English only
+R_7q35ETwaO2ydiNO;Daily;03/May;C1;18-20;No;No;5;6;4;4;5;3;Issues - Julia Michaels (Original);6;4;4;5;Lyrics;03/May;C1;English only
+R_7q35ETwaO2ydiNO;Daily;03/May;C1;18-20;No;No;6;5;4;4;1;3;Issues (French Cover);5;4;4;1;Lyrics;03/May;C1;English only
+R_2wRobJdIW0kzoat;Daily;03/May;C1;21-25;No;No;1;5;5;5;5;3;Solo - Clean Bandit (Original);5;5;5;5;Melody;03/May;C1;English only
+R_2wRobJdIW0kzoat;Daily;03/May;C1;21-25;No;No;2;4;5;5;1;2;Solo (Spanish Cover);4;5;5;1;Lyrics;03/May;C1;English only
+R_2wRobJdIW0kzoat;Daily;03/May;C1;21-25;No;No;3;4;6;6;4;2;Lost on You - LP (Original);4;6;6;4;Rhythm/beat;03/May;C1;English only
+R_2wRobJdIW0kzoat;Daily;03/May;C1;21-25;No;No;4;6;5;6;1;3;Lost on You (Spanish Cover);6;5;6;1;Rhythm/beat;03/May;C1;English only
+R_2wRobJdIW0kzoat;Daily;03/May;C1;21-25;No;No;5;7;2;5;5;3;Issues - Julia Michaels (Original);7;2;5;5;Melody;03/May;C1;English only
+R_2wRobJdIW0kzoat;Daily;03/May;C1;21-25;No;No;6;6;6;5;2;3;Issues (French Cover);6;6;5;2;Rhythm/beat;03/May;C1;English only
+R_2NX6IHw7UbJnZI0;Daily;0;NA;21-25;No;No;1;2;6;6;5;3;Solo - Clean Bandit (Original);2;6;6;5;Lyrics;0;NA;NA
+R_2NX6IHw7UbJnZI0;Daily;0;NA;21-25;No;No;2;2;6;6;1;3;Solo (Spanish Cover);2;6;6;1;Lyrics;0;NA;NA
+R_2NX6IHw7UbJnZI0;Daily;0;NA;21-25;No;No;3;6;7;2;5;1;Lost on You - LP (Original);6;7;2;5;Melody;0;NA;NA
+R_2NX6IHw7UbJnZI0;Daily;0;NA;21-25;No;No;4;2;5;2;1;3;Lost on You (Spanish Cover);2;5;2;1;Lyrics;0;NA;NA
+R_2NX6IHw7UbJnZI0;Daily;0;NA;21-25;No;No;5;6;2;6;5;3;Issues - Julia Michaels (Original);6;2;6;5;Melody;0;NA;NA
+R_2NX6IHw7UbJnZI0;Daily;0;NA;21-25;No;No;6;2;2;5;1;3;Issues (French Cover);2;2;5;1;Rhythm/beat;0;NA;NA
+R_80Z2aLZO8WBP0Pj;Daily;03/May;C1;18-20;No;No;1;6;7;5;5;1;Solo - Clean Bandit (Original);6;7;5;5;Lyrics;03/May;C1;English only
+R_80Z2aLZO8WBP0Pj;Daily;03/May;C1;18-20;No;No;2;5;4;5;1;3;Solo (Spanish Cover);5;4;5;1;Lyrics;03/May;C1;English only
+R_80Z2aLZO8WBP0Pj;Daily;03/May;C1;18-20;No;No;3;7;7;7;5;1;Lost on You - LP (Original);7;7;7;5;Rhythm/beat;03/May;C1;English only
+R_80Z2aLZO8WBP0Pj;Daily;03/May;C1;18-20;No;No;4;4;7;4;1;2;Lost on You (Spanish Cover);4;7;4;1;Rhythm/beat;03/May;C1;English only
+R_80Z2aLZO8WBP0Pj;Daily;03/May;C1;18-20;No;No;5;4;4;5;4;3;Issues - Julia Michaels (Original);4;4;5;4;Melody;03/May;C1;English only
+R_80Z2aLZO8WBP0Pj;Daily;03/May;C1;18-20;No;No;6;5;3;4;1;3;Issues (French Cover);5;3;4;1;Lyrics;03/May;C1;English only
+R_29nBDUMVMLfj4Nw;Less than weekly;0;C2;21-25;No;No;1;6;5;5;5;3;Solo - Clean Bandit (Original);6;5;5;5;Lyrics;0;C2;English only
+R_29nBDUMVMLfj4Nw;Less than weekly;0;C2;21-25;No;No;2;3;5;5;2;3;Solo (Spanish Cover);3;5;5;2;Lyrics;0;C2;English only
+R_29nBDUMVMLfj4Nw;Less than weekly;0;C2;21-25;No;No;3;3;3;4;5;3;Lost on You - LP (Original);3;3;4;5;Rhythm/beat;0;C2;English only
+R_29nBDUMVMLfj4Nw;Less than weekly;0;C2;21-25;No;No;4;4;4;4;1;3;Lost on You (Spanish Cover);4;4;4;1;Lyrics;0;C2;English only
+R_29nBDUMVMLfj4Nw;Less than weekly;0;C2;21-25;No;No;5;5;4;3;5;3;Issues - Julia Michaels (Original);5;4;3;5;Melody;0;C2;English only
+R_29nBDUMVMLfj4Nw;Less than weekly;0;C2;21-25;No;No;6;3;5;4;2;3;Issues (French Cover);3;5;4;2;Rhythm/beat;0;C2;English only
+R_2JJnczFo3HXtOj7;Daily;0;C1;21-25;No;No;1;2;6;6;5;3;Solo - Clean Bandit (Original);2;6;6;5;Lyrics;0;C1;English only
+R_2JJnczFo3HXtOj7;Daily;0;C1;21-25;No;No;2;2;6;6;1;3;Solo (Spanish Cover);2;6;6;1;Lyrics;0;C1;English only
+R_2JJnczFo3HXtOj7;Daily;0;C1;21-25;No;No;3;5;6;6;5;3;Lost on You - LP (Original);5;6;6;5;Lyrics;0;C1;English only
+R_2JJnczFo3HXtOj7;Daily;0;C1;21-25;No;No;4;6;6;6;1;3;Lost on You (Spanish Cover);6;6;6;1;Lyrics;0;C1;English only
+R_2JJnczFo3HXtOj7;Daily;0;C1;21-25;No;No;5;6;5;6;5;3;Issues - Julia Michaels (Original);6;5;6;5;Rhythm/beat;0;C1;English only
+R_2JJnczFo3HXtOj7;Daily;0;C1;21-25;No;No;6;6;5;6;1;3;Issues (French Cover);6;5;6;1;Rhythm/beat;0;C1;English only
+R_4JUwzk74OWW1qyl;Daily;0;C1;18-20;No;No;1;3;2;4;4;3;Solo - Clean Bandit (Original);3;2;4;4;Lyrics;0;C1;English only
+R_4JUwzk74OWW1qyl;Daily;0;C1;18-20;No;No;2;3;5;5;1;3;Solo (Spanish Cover);3;5;5;1;Rhythm/beat;0;C1;English only
+R_4JUwzk74OWW1qyl;Daily;0;C1;18-20;No;No;3;3;5;5;4;3;Lost on You - LP (Original);3;5;5;4;Melody;0;C1;English only
+R_4JUwzk74OWW1qyl;Daily;0;C1;18-20;No;No;4;5;4;4;1;3;Lost on You (Spanish Cover);5;4;4;1;Lyrics;0;C1;English only
+R_4JUwzk74OWW1qyl;Daily;0;C1;18-20;No;No;5;5;6;5;5;3;Issues - Julia Michaels (Original);5;6;5;5;Rhythm/beat;0;C1;English only
+R_4JUwzk74OWW1qyl;Daily;0;C1;18-20;No;No;6;5;5;4;2;3;Issues (French Cover);5;5;4;2;Lyrics;0;C1;English only
+R_4X2RXAodlOVVnAR;Daily;0;B2;18-20;Yes;No;1;3;3;3;2;3;Solo - Clean Bandit (Original);3;3;3;2;Lyrics;0;B2;English + French
+R_4X2RXAodlOVVnAR;Daily;0;B2;18-20;Yes;No;2;4;4;4;2;3;Solo (Spanish Cover);4;4;4;2;Lyrics;0;B2;English + French
+R_4X2RXAodlOVVnAR;Daily;0;B2;18-20;Yes;No;3;5;5;5;3;2;Lost on You - LP (Original);5;5;5;3;Lyrics;0;B2;English + French
+R_4X2RXAodlOVVnAR;Daily;0;B2;18-20;Yes;No;4;5;5;5;3;3;Lost on You (Spanish Cover);5;5;5;3;Lyrics;0;B2;English + French
+R_4X2RXAodlOVVnAR;Daily;0;B2;18-20;Yes;No;5;4;4;4;3;2;Issues - Julia Michaels (Original);4;4;4;3;Lyrics;0;B2;English + French
+R_4X2RXAodlOVVnAR;Daily;0;B2;18-20;Yes;No;6;4;4;4;2;3;Issues (French Cover);4;4;4;2;Lyrics;0;B2;English + French
+R_8DiIfWQqoshtyB9;Daily;6+;C2;21-25;No;No;1;2;2;4;5;3;Solo - Clean Bandit (Original);2;2;4;5;Lyrics;6+;C2;English only
+R_8DiIfWQqoshtyB9;Daily;6+;C2;21-25;No;No;2;2;2;4;2;3;Solo (Spanish Cover);2;2;4;2;Rhythm/beat;6+;C2;English only
+R_8DiIfWQqoshtyB9;Daily;6+;C2;21-25;No;No;3;2;2;4;5;3;Lost on You - LP (Original);2;2;4;5;Rhythm/beat;6+;C2;English only
+R_8DiIfWQqoshtyB9;Daily;6+;C2;21-25;No;No;4;2;2;4;1;3;Lost on You (Spanish Cover);2;2;4;1;Lyrics;6+;C2;English only
+R_8DiIfWQqoshtyB9;Daily;6+;C2;21-25;No;No;5;1;1;4;5;3;Issues - Julia Michaels (Original);1;1;4;5;Rhythm/beat;6+;C2;English only
+R_8DiIfWQqoshtyB9;Daily;6+;C2;21-25;No;No;6;2;2;4;2;3;Issues (French Cover);2;2;4;2;NA;6+;C2;English only
+R_9NIk9JPxubKXxBm;Daily;0;B2;18-20;No;No;1;7;7;6;5;3;Solo - Clean Bandit (Original);7;7;6;5;Melody;0;B2;English only
+R_9NIk9JPxubKXxBm;Daily;0;B2;18-20;No;No;2;6;6;6;1;2;Solo (Spanish Cover);6;6;6;1;Lyrics;0;B2;English only
+R_9NIk9JPxubKXxBm;Daily;0;B2;18-20;No;No;3;5;4;6;4;3;Lost on You - LP (Original);5;4;6;4;Melody;0;B2;English only
+R_9NIk9JPxubKXxBm;Daily;0;B2;18-20;No;No;4;4;3;4;1;2;Lost on You (Spanish Cover);4;3;4;1;Lyrics;0;B2;English only
+R_9NIk9JPxubKXxBm;Daily;0;B2;18-20;No;No;5;5;4;4;1;3;Issues - Julia Michaels (Original);5;4;4;1;Rhythm/beat;0;B2;English only
+R_9NIk9JPxubKXxBm;Daily;0;B2;18-20;No;No;6;4;3;4;1;3;Issues (French Cover);4;3;4;1;Lyrics;0;B2;English only
+R_8CfDWWjBCfzsQtQ;Daily;01/Feb;C1;18-20;No;No;1;6;6;6;5;3;Solo - Clean Bandit (Original);6;6;6;5;Lyrics;01/Feb;C1;English only
+R_8CfDWWjBCfzsQtQ;Daily;01/Feb;C1;18-20;No;No;2;6;6;6;2;3;Solo (Spanish Cover);6;6;6;2;Lyrics;01/Feb;C1;English only
+R_8CfDWWjBCfzsQtQ;Daily;01/Feb;C1;18-20;No;No;3;4;1;4;5;3;Lost on You - LP (Original);4;1;4;5;Lyrics;01/Feb;C1;English only
+R_8CfDWWjBCfzsQtQ;Daily;01/Feb;C1;18-20;No;No;4;4;1;4;1;3;Lost on You (Spanish Cover);4;1;4;1;Melody;01/Feb;C1;English only
+R_8CfDWWjBCfzsQtQ;Daily;01/Feb;C1;18-20;No;No;5;4;2;3;5;3;Issues - Julia Michaels (Original);4;2;3;5;Melody;01/Feb;C1;English only
+R_8CfDWWjBCfzsQtQ;Daily;01/Feb;C1;18-20;No;No;6;3;2;4;1;3;Issues (French Cover);3;2;4;1;Rhythm/beat;01/Feb;C1;English only
+R_8jV89SZQ1Bh3WXQ;NA;NA;NA;NA;NA;NA;1;NA;NA;NA;NA;NA;Solo - Clean Bandit (Original);NA;NA;NA;NA;NA;NA;NA;NA
+R_8jV89SZQ1Bh3WXQ;NA;NA;NA;NA;NA;NA;2;NA;NA;NA;NA;NA;Solo (Spanish Cover);NA;NA;NA;NA;NA;NA;NA;NA
+R_8jV89SZQ1Bh3WXQ;NA;NA;NA;NA;NA;NA;3;NA;NA;NA;NA;NA;Lost on You - LP (Original);NA;NA;NA;NA;NA;NA;NA;NA
+R_8jV89SZQ1Bh3WXQ;NA;NA;NA;NA;NA;NA;4;NA;NA;NA;NA;NA;Lost on You (Spanish Cover);NA;NA;NA;NA;NA;NA;NA;NA
+R_8jV89SZQ1Bh3WXQ;NA;NA;NA;NA;NA;NA;5;NA;NA;NA;NA;NA;Issues - Julia Michaels (Original);NA;NA;NA;NA;NA;NA;NA;NA
+R_8jV89SZQ1Bh3WXQ;NA;NA;NA;NA;NA;NA;6;NA;NA;NA;NA;NA;Issues (French Cover);NA;NA;NA;NA;NA;NA;NA;NA
+R_83x0vQ8srxEJ9Db;Daily;0;C2;21-25;No;No;1;2;7;2;5;3;Solo - Clean Bandit (Original);2;7;2;5;Lyrics;0;C2;English only
+R_83x0vQ8srxEJ9Db;Daily;0;C2;21-25;No;No;2;2;6;3;2;3;Solo (Spanish Cover);2;6;3;2;Lyrics;0;C2;English only
+R_83x0vQ8srxEJ9Db;Daily;0;C2;21-25;No;No;3;3;5;5;5;3;Lost on You - LP (Original);3;5;5;5;Melody;0;C2;English only
+R_83x0vQ8srxEJ9Db;Daily;0;C2;21-25;No;No;4;5;2;4;1;3;Lost on You (Spanish Cover);5;2;4;1;Rhythm/beat;0;C2;English only
+R_83x0vQ8srxEJ9Db;Daily;0;C2;21-25;No;No;5;5;7;6;5;3;Issues - Julia Michaels (Original);5;7;6;5;Melody;0;C2;English only
+R_83x0vQ8srxEJ9Db;Daily;0;C2;21-25;No;No;6;1;6;4;1;3;Issues (French Cover);1;6;4;1;Rhythm/beat;0;C2;English only
+R_2GZeNAmRr899D0s;Daily;0;C2;21-25;No;No;1;5;7;5;5;3;Solo - Clean Bandit (Original);5;7;5;5;Rhythm/beat;0;C2;English only
+R_2GZeNAmRr899D0s;Daily;0;C2;21-25;No;No;2;3;7;4;1;3;Solo (Spanish Cover);3;7;4;1;Rhythm/beat;0;C2;English only
+R_2GZeNAmRr899D0s;Daily;0;C2;21-25;No;No;3;3;7;5;5;3;Lost on You - LP (Original);3;7;5;5;Lyrics;0;C2;English only
+R_2GZeNAmRr899D0s;Daily;0;C2;21-25;No;No;4;3;7;3;1;3;Lost on You (Spanish Cover);3;7;3;1;Other;0;C2;English only
+R_2GZeNAmRr899D0s;Daily;0;C2;21-25;No;No;5;5;7;6;5;2;Issues - Julia Michaels (Original);5;7;6;5;Lyrics;0;C2;English only
+R_2GZeNAmRr899D0s;Daily;0;C2;21-25;No;No;6;5;7;6;4;2;Issues (French Cover);5;7;6;4;Lyrics;0;C2;English only
+R_8aJIvYakZ4akZgf;Daily;6+;C1;21-25;Yes;No;1;4;6;6;5;3;Solo - Clean Bandit (Original);4;6;6;5;Melody;6+;C1;English + French
+R_8aJIvYakZ4akZgf;Daily;6+;C1;21-25;Yes;No;2;4;5;6;1;3;Solo (Spanish Cover);4;5;6;1;Lyrics;6+;C1;English + French
+R_8aJIvYakZ4akZgf;Daily;6+;C1;21-25;Yes;No;3;7;7;6;5;1;Lost on You - LP (Original);7;7;6;5;Melody;6+;C1;English + French
+R_8aJIvYakZ4akZgf;Daily;6+;C1;21-25;Yes;No;4;3;5;5;2;1;Lost on You (Spanish Cover);3;5;5;2;Lyrics;6+;C1;English + French
+R_8aJIvYakZ4akZgf;Daily;6+;C1;21-25;Yes;No;5;2;2;4;5;3;Issues - Julia Michaels (Original);2;2;4;5;NA;6+;C1;English + French
+R_8aJIvYakZ4akZgf;Daily;6+;C1;21-25;Yes;No;6;2;2;4;5;3;Issues (French Cover);2;2;4;5;NA;6+;C1;English + French
+R_2H7zdsyPRMJxeAp;Daily;0;B2;18-20;No;No;1;5;4;4;3;2;Solo - Clean Bandit (Original);5;4;4;3;Rhythm/beat;0;B2;English only
+R_2H7zdsyPRMJxeAp;Daily;0;B2;18-20;No;No;2;4;5;4;2;2;Solo (Spanish Cover);4;5;4;2;Melody;0;B2;English only
+R_2H7zdsyPRMJxeAp;Daily;0;B2;18-20;No;No;3;5;5;5;3;2;Lost on You - LP (Original);5;5;5;3;Lyrics;0;B2;English only
+R_2H7zdsyPRMJxeAp;Daily;0;B2;18-20;No;No;4;5;5;4;3;2;Lost on You (Spanish Cover);5;5;4;3;Lyrics;0;B2;English only
+R_2H7zdsyPRMJxeAp;Daily;0;B2;18-20;No;No;5;3;3;5;3;2;Issues - Julia Michaels (Original);3;3;5;3;Rhythm/beat;0;B2;English only
+R_2H7zdsyPRMJxeAp;Daily;0;B2;18-20;No;No;6;5;3;3;4;1;Issues (French Cover);5;3;3;4;NA;0;B2;English only
+R_2N2rXWASMuArsiu;Daily;0;C2;21-25;No;No;1;2;6;4;5;3;Solo - Clean Bandit (Original);2;6;4;5;Lyrics;0;C2;English only
+R_2N2rXWASMuArsiu;Daily;0;C2;21-25;No;No;2;2;6;6;1;3;Solo (Spanish Cover);2;6;6;1;Other;0;C2;English only
+R_2N2rXWASMuArsiu;Daily;0;C2;21-25;No;No;3;6;7;6;5;3;Lost on You - LP (Original);6;7;6;5;Lyrics;0;C2;English only
+R_2N2rXWASMuArsiu;Daily;0;C2;21-25;No;No;4;5;4;5;1;3;Lost on You (Spanish Cover);5;4;5;1;Rhythm/beat;0;C2;English only
+R_2N2rXWASMuArsiu;Daily;0;C2;21-25;No;No;5;5;5;3;5;3;Issues - Julia Michaels (Original);5;5;3;5;Rhythm/beat;0;C2;English only
+R_2N2rXWASMuArsiu;Daily;0;C2;21-25;No;No;6;5;1;4;1;3;Issues (French Cover);5;1;4;1;Lyrics;0;C2;English only
+R_223lTwk3VzYN3Fx;Daily;01/Feb;C2;18-20;No;Yes;1;2;7;6;5;1;Solo - Clean Bandit (Original);2;7;6;5;Melody;01/Feb;C2;English + Spanish
+R_223lTwk3VzYN3Fx;Daily;01/Feb;C2;18-20;No;Yes;2;3;6;6;4;2;Solo (Spanish Cover);3;6;6;4;Lyrics;01/Feb;C2;English + Spanish
+R_223lTwk3VzYN3Fx;Daily;01/Feb;C2;18-20;No;Yes;3;5;7;3;5;3;Lost on You - LP (Original);5;7;3;5;Melody;01/Feb;C2;English + Spanish
+R_223lTwk3VzYN3Fx;Daily;01/Feb;C2;18-20;No;Yes;4;5;7;3;5;3;Lost on You (Spanish Cover);5;7;3;5;Melody;01/Feb;C2;English + Spanish
+R_223lTwk3VzYN3Fx;Daily;01/Feb;C2;18-20;No;Yes;5;6;6;6;5;3;Issues - Julia Michaels (Original);6;6;6;5;Lyrics;01/Feb;C2;English + Spanish
+R_223lTwk3VzYN3Fx;Daily;01/Feb;C2;18-20;No;Yes;6;5;6;4;3;3;Issues (French Cover);5;6;4;3;Lyrics;01/Feb;C2;English + Spanish
+R_8uu0vtZtWc9bQxb;Daily;01/Feb;B2;21-25;No;No;1;7;7;2;5;3;Solo - Clean Bandit (Original);7;7;2;5;Melody;01/Feb;B2;English only
+R_8uu0vtZtWc9bQxb;Daily;01/Feb;B2;21-25;No;No;2;7;7;2;1;3;Solo (Spanish Cover);7;7;2;1;Lyrics;01/Feb;B2;English only
+R_8uu0vtZtWc9bQxb;Daily;01/Feb;B2;21-25;No;No;3;7;7;1;5;1;Lost on You - LP (Original);7;7;1;5;Melody;01/Feb;B2;English only
+R_8uu0vtZtWc9bQxb;Daily;01/Feb;B2;21-25;No;No;4;5;6;3;1;3;Lost on You (Spanish Cover);5;6;3;1;Lyrics;01/Feb;B2;English only
+R_8uu0vtZtWc9bQxb;Daily;01/Feb;B2;21-25;No;No;5;7;4;3;4;2;Issues - Julia Michaels (Original);7;4;3;4;Lyrics;01/Feb;B2;English only
+R_8uu0vtZtWc9bQxb;Daily;01/Feb;B2;21-25;No;No;6;7;6;5;1;2;Issues (French Cover);7;6;5;1;Lyrics;01/Feb;B2;English only
+R_2j4OHHC37Y5hLGx;4-6 times a week;03/May;B1;18-20;Yes;Yes;1;1;3;3;3;1;Solo - Clean Bandit (Original);1;3;3;3;Other;03/May;B1;NA
+R_2j4OHHC37Y5hLGx;4-6 times a week;03/May;B1;18-20;Yes;Yes;2;4;5;3;1;1;Solo (Spanish Cover);4;5;3;1;Lyrics;03/May;B1;NA
+R_2j4OHHC37Y5hLGx;4-6 times a week;03/May;B1;18-20;Yes;Yes;3;5;3;3;4;1;Lost on You - LP (Original);5;3;3;4;Rhythm/beat;03/May;B1;NA
+R_2j4OHHC37Y5hLGx;4-6 times a week;03/May;B1;18-20;Yes;Yes;4;3;3;3;3;1;Lost on You (Spanish Cover);3;3;3;3;Rhythm/beat;03/May;B1;NA
+R_2j4OHHC37Y5hLGx;4-6 times a week;03/May;B1;18-20;Yes;Yes;5;1;3;4;4;1;Issues - Julia Michaels (Original);1;3;4;4;NA;03/May;B1;NA
+R_2j4OHHC37Y5hLGx;4-6 times a week;03/May;B1;18-20;Yes;Yes;6;1;3;3;4;1;Issues (French Cover);1;3;3;4;Rhythm/beat;03/May;B1;NA
+R_2gN2Q0k8YGAisdO;Daily;01/Feb;A1;18-20;No;No;1;2;1;6;1;2;Solo - Clean Bandit (Original);2;1;6;1;Lyrics;01/Feb;A1;NA
+R_2gN2Q0k8YGAisdO;Daily;01/Feb;A1;18-20;No;No;2;6;1;6;1;2;Solo (Spanish Cover);6;1;6;1;Lyrics;01/Feb;A1;NA
+R_2gN2Q0k8YGAisdO;Daily;01/Feb;A1;18-20;No;No;3;7;1;2;1;1;Lost on You - LP (Original);7;1;2;1;Rhythm/beat;01/Feb;A1;NA
+R_2gN2Q0k8YGAisdO;Daily;01/Feb;A1;18-20;No;No;4;7;1;2;1;1;Lost on You (Spanish Cover);7;1;2;1;Rhythm/beat;01/Feb;A1;NA
+R_2gN2Q0k8YGAisdO;Daily;01/Feb;A1;18-20;No;No;5;2;1;6;1;2;Issues - Julia Michaels (Original);2;1;6;1;Lyrics;01/Feb;A1;NA
+R_2gN2Q0k8YGAisdO;Daily;01/Feb;A1;18-20;No;No;6;2;1;6;1;2;Issues (French Cover);2;1;6;1;Lyrics;01/Feb;A1;NA
+R_2QVrfaWuXiux1kR;4-6 times a week;0;B2;21-25;No;No;1;5;7;6;3;2;Solo - Clean Bandit (Original);5;7;6;3;Lyrics;0;B2;English only
+R_2QVrfaWuXiux1kR;4-6 times a week;0;B2;21-25;No;No;2;5;3;4;2;3;Solo (Spanish Cover);5;3;4;2;Rhythm/beat;0;B2;English only
+R_2QVrfaWuXiux1kR;4-6 times a week;0;B2;21-25;No;No;3;5;5;3;2;3;Lost on You - LP (Original);5;5;3;2;Lyrics;0;B2;English only
+R_2QVrfaWuXiux1kR;4-6 times a week;0;B2;21-25;No;No;4;6;2;3;3;2;Lost on You (Spanish Cover);6;2;3;3;Lyrics;0;B2;English only
+R_2QVrfaWuXiux1kR;4-6 times a week;0;B2;21-25;No;No;5;6;5;3;2;3;Issues - Julia Michaels (Original);6;5;3;2;Rhythm/beat;0;B2;English only
+R_2QVrfaWuXiux1kR;4-6 times a week;0;B2;21-25;No;No;6;3;2;4;1;3;Issues (French Cover);3;2;4;1;Rhythm/beat;0;B2;English only
+R_2mjZ3aXbthvxR05;Daily;0;C1;18-20;No;No;1;2;7;6;2;3;Solo - Clean Bandit (Original);2;7;6;2;Lyrics;0;C1;English only
+R_2mjZ3aXbthvxR05;Daily;0;C1;18-20;No;No;2;2;7;5;2;3;Solo (Spanish Cover);2;7;5;2;Lyrics;0;C1;English only
+R_2mjZ3aXbthvxR05;Daily;0;C1;18-20;No;No;3;3;2;4;4;2;Lost on You - LP (Original);3;2;4;4;Melody;0;C1;English only
+R_2mjZ3aXbthvxR05;Daily;0;C1;18-20;No;No;4;5;2;3;2;3;Lost on You (Spanish Cover);5;2;3;2;Lyrics;0;C1;English only
+R_2mjZ3aXbthvxR05;Daily;0;C1;18-20;No;No;5;6;2;3;4;3;Issues - Julia Michaels (Original);6;2;3;4;Lyrics;0;C1;English only
+R_2mjZ3aXbthvxR05;Daily;0;C1;18-20;No;No;6;5;2;5;1;3;Issues (French Cover);5;2;5;1;Rhythm/beat;0;C1;English only
+R_2fpIH6vOdzjsOys;Daily;0;C1;26-30;No;No;1;2;2;4;1;3;Solo - Clean Bandit (Original);2;2;4;1;Lyrics;0;C1;English only
+R_2fpIH6vOdzjsOys;Daily;0;C1;26-30;No;No;2;2;2;4;1;3;Solo (Spanish Cover);2;2;4;1;Lyrics;0;C1;English only
+R_2fpIH6vOdzjsOys;Daily;0;C1;26-30;No;No;3;2;1;4;2;3;Lost on You - LP (Original);2;1;4;2;Lyrics;0;C1;English only
+R_2fpIH6vOdzjsOys;Daily;0;C1;26-30;No;No;4;2;1;4;1;3;Lost on You (Spanish Cover);2;1;4;1;Lyrics;0;C1;English only
+R_2fpIH6vOdzjsOys;Daily;0;C1;26-30;No;No;5;4;7;4;3;3;Issues - Julia Michaels (Original);4;7;4;3;Lyrics;0;C1;English only
+R_2fpIH6vOdzjsOys;Daily;0;C1;26-30;No;No;6;2;1;4;1;3;Issues (French Cover);2;1;4;1;Lyrics;0;C1;English only
+R_9ONBUwoQGvIF20E;Daily;01/Feb;C1;21-25;No;No;1;4;4;4;5;3;Solo - Clean Bandit (Original);4;4;4;5;Melody;01/Feb;C1;English only
+R_9ONBUwoQGvIF20E;Daily;01/Feb;C1;21-25;No;No;2;4;5;6;1;3;Solo (Spanish Cover);4;5;6;1;Rhythm/beat;01/Feb;C1;English only
+R_9ONBUwoQGvIF20E;Daily;01/Feb;C1;21-25;No;No;3;6;6;3;5;2;Lost on You - LP (Original);6;6;3;5;Melody;01/Feb;C1;English only
+R_9ONBUwoQGvIF20E;Daily;01/Feb;C1;21-25;No;No;4;6;5;3;1;2;Lost on You (Spanish Cover);6;5;3;1;Rhythm/beat;01/Feb;C1;English only
+R_9ONBUwoQGvIF20E;Daily;01/Feb;C1;21-25;No;No;5;4;5;4;5;3;Issues - Julia Michaels (Original);4;5;4;5;Melody;01/Feb;C1;English only
+R_9ONBUwoQGvIF20E;Daily;01/Feb;C1;21-25;No;No;6;5;2;6;1;2;Issues (French Cover);5;2;6;1;Lyrics;01/Feb;C1;English only
+R_8AGZw8uDQ80WLqc;Daily;6+;B2;21-25;No;No;1;3;3;3;1;3;Solo - Clean Bandit (Original);3;3;3;1;Lyrics;6+;B2;English only
+R_8AGZw8uDQ80WLqc;Daily;6+;B2;21-25;No;No;2;5;5;5;1;3;Solo (Spanish Cover);5;5;5;1;Lyrics;6+;B2;English only
+R_8AGZw8uDQ80WLqc;Daily;6+;B2;21-25;No;No;3;1;1;5;2;3;Lost on You - LP (Original);1;1;5;2;Lyrics;6+;B2;English only
+R_8AGZw8uDQ80WLqc;Daily;6+;B2;21-25;No;No;4;4;2;4;3;3;Lost on You (Spanish Cover);4;2;4;3;Lyrics;6+;B2;English only
+R_8AGZw8uDQ80WLqc;Daily;6+;B2;21-25;No;No;5;2;5;3;2;3;Issues - Julia Michaels (Original);2;5;3;2;Lyrics;6+;B2;English only
+R_8AGZw8uDQ80WLqc;Daily;6+;B2;21-25;No;No;6;3;1;2;1;3;Issues (French Cover);3;1;2;1;Melody;6+;B2;English only
+R_8cTjNE3VtXq3aJ8;Daily;03/May;B1;21-25;No;No;1;6;7;3;4;3;Solo - Clean Bandit (Original);6;7;3;4;Lyrics;03/May;B1;English only
+R_8cTjNE3VtXq3aJ8;Daily;03/May;B1;21-25;No;No;2;3;5;2;1;3;Solo (Spanish Cover);3;5;2;1;Rhythm/beat;03/May;B1;English only
+R_8cTjNE3VtXq3aJ8;Daily;03/May;B1;21-25;No;No;3;6;3;3;4;3;Lost on You - LP (Original);6;3;3;4;Rhythm/beat;03/May;B1;English only
+R_8cTjNE3VtXq3aJ8;Daily;03/May;B1;21-25;No;No;4;6;3;4;1;3;Lost on You (Spanish Cover);6;3;4;1;Rhythm/beat;03/May;B1;English only
+R_8cTjNE3VtXq3aJ8;Daily;03/May;B1;21-25;No;No;5;5;3;4;4;3;Issues - Julia Michaels (Original);5;3;4;4;Rhythm/beat;03/May;B1;English only
+R_8cTjNE3VtXq3aJ8;Daily;03/May;B1;21-25;No;No;6;6;3;5;1;3;Issues (French Cover);6;3;5;1;Melody;03/May;B1;English only
+R_2CPLEPLkAACUSuB;Daily;6+;C2;18-20;No;No;1;5;6;5;4;2;Solo - Clean Bandit (Original);5;6;5;4;Lyrics;6+;C2;English only
+R_2CPLEPLkAACUSuB;Daily;6+;C2;18-20;No;No;2;4;5;4;2;3;Solo (Spanish Cover);4;5;4;2;Rhythm/beat;6+;C2;English only
+R_2CPLEPLkAACUSuB;Daily;6+;C2;18-20;No;No;3;2;1;3;5;3;Lost on You - LP (Original);2;1;3;5;Lyrics;6+;C2;English only
+R_2CPLEPLkAACUSuB;Daily;6+;C2;18-20;No;No;4;3;1;4;1;1;Lost on You (Spanish Cover);3;1;4;1;Lyrics;6+;C2;English only
+R_2CPLEPLkAACUSuB;Daily;6+;C2;18-20;No;No;5;5;2;3;5;3;Issues - Julia Michaels (Original);5;2;3;5;Melody;6+;C2;English only
+R_2CPLEPLkAACUSuB;Daily;6+;C2;18-20;No;No;6;4;2;3;1;3;Issues (French Cover);4;2;3;1;Rhythm/beat;6+;C2;English only
+R_2qpUrMSXgKSXIHM;4-6 times a week;6+;A1;41+;No;No;1;6;2;6;2;3;Solo - Clean Bandit (Original);6;2;6;2;Lyrics;6+;A1;NA
+R_2qpUrMSXgKSXIHM;4-6 times a week;6+;A1;41+;No;No;2;5;2;6;2;3;Solo (Spanish Cover);5;2;6;2;Lyrics;6+;A1;NA
+R_2qpUrMSXgKSXIHM;4-6 times a week;6+;A1;41+;No;No;3;6;6;6;3;2;Lost on You - LP (Original);6;6;6;3;Melody;6+;A1;NA
+R_2qpUrMSXgKSXIHM;4-6 times a week;6+;A1;41+;No;No;4;4;2;3;1;2;Lost on You (Spanish Cover);4;2;3;1;Lyrics;6+;A1;NA
+R_2qpUrMSXgKSXIHM;4-6 times a week;6+;A1;41+;No;No;5;6;5;4;2;3;Issues - Julia Michaels (Original);6;5;4;2;NA;6+;A1;NA
+R_2qpUrMSXgKSXIHM;4-6 times a week;6+;A1;41+;No;No;6;5;1;5;1;3;Issues (French Cover);5;1;5;1;Rhythm/beat;6+;A1;NA
+R_82a98nGuZmiFbA4;Daily;0;A2;18-20;No;No;1;5;7;5;3;3;Solo - Clean Bandit (Original);5;7;5;3;Lyrics;0;A2;NA
+R_82a98nGuZmiFbA4;Daily;0;A2;18-20;No;No;2;2;7;4;2;2;Solo (Spanish Cover);2;7;4;2;Lyrics;0;A2;NA
+R_82a98nGuZmiFbA4;Daily;0;A2;18-20;No;No;3;2;2;4;3;3;Lost on You - LP (Original);2;2;4;3;Lyrics;0;A2;NA
+R_82a98nGuZmiFbA4;Daily;0;A2;18-20;No;No;4;5;1;4;1;3;Lost on You (Spanish Cover);5;1;4;1;Rhythm/beat;0;A2;NA
+R_82a98nGuZmiFbA4;Daily;0;A2;18-20;No;No;5;6;2;6;4;3;Issues - Julia Michaels (Original);6;2;6;4;Melody;0;A2;NA
+R_82a98nGuZmiFbA4;Daily;0;A2;18-20;No;No;6;5;2;6;1;3;Issues (French Cover);5;2;6;1;Rhythm/beat;0;A2;NA
+R_8THJnv7xVkgTfFX;Daily;03/May;C2;26-30;No;No;1;2;2;4;3;3;Solo - Clean Bandit (Original);2;2;4;3;Melody;03/May;C2;English only
+R_8THJnv7xVkgTfFX;Daily;03/May;C2;26-30;No;No;2;5;6;7;1;3;Solo (Spanish Cover);5;6;7;1;Lyrics;03/May;C2;English only
+R_8THJnv7xVkgTfFX;Daily;03/May;C2;26-30;No;No;3;4;6;4;3;3;Lost on You - LP (Original);4;6;4;3;Melody;03/May;C2;English only
+R_8THJnv7xVkgTfFX;Daily;03/May;C2;26-30;No;No;4;2;2;4;1;3;Lost on You (Spanish Cover);2;2;4;1;NA;03/May;C2;English only
+R_8THJnv7xVkgTfFX;Daily;03/May;C2;26-30;No;No;5;4;6;5;4;3;Issues - Julia Michaels (Original);4;6;5;4;Lyrics;03/May;C2;English only
+R_8THJnv7xVkgTfFX;Daily;03/May;C2;26-30;No;No;6;6;5;4;3;3;Issues (French Cover);6;5;4;3;Lyrics;03/May;C2;English only
+R_9DvtWrV6HuC0QR0;4-6 times a week;01/Feb;B1;18-20;No;No;1;7;2;4;3;3;Solo - Clean Bandit (Original);7;2;4;3;Lyrics;01/Feb;B1;English only
+R_9DvtWrV6HuC0QR0;4-6 times a week;01/Feb;B1;18-20;No;No;2;6;2;5;3;3;Solo (Spanish Cover);6;2;5;3;Lyrics;01/Feb;B1;English only
+R_9DvtWrV6HuC0QR0;4-6 times a week;01/Feb;B1;18-20;No;No;3;6;3;4;2;3;Lost on You - LP (Original);6;3;4;2;Lyrics;01/Feb;B1;English only
+R_9DvtWrV6HuC0QR0;4-6 times a week;01/Feb;B1;18-20;No;No;4;4;5;3;1;3;Lost on You (Spanish Cover);4;5;3;1;Rhythm/beat;01/Feb;B1;English only
+R_9DvtWrV6HuC0QR0;4-6 times a week;01/Feb;B1;18-20;No;No;5;5;2;6;1;3;Issues - Julia Michaels (Original);5;2;6;1;Lyrics;01/Feb;B1;English only
+R_9DvtWrV6HuC0QR0;4-6 times a week;01/Feb;B1;18-20;No;No;6;5;2;5;1;3;Issues (French Cover);5;2;5;1;Rhythm/beat;01/Feb;B1;English only
+R_21qsGfEoy0oJivL;NA;NA;NA;NA;NA;NA;1;NA;NA;NA;NA;NA;Solo - Clean Bandit (Original);NA;NA;NA;NA;NA;NA;NA;NA
+R_21qsGfEoy0oJivL;NA;NA;NA;NA;NA;NA;2;NA;NA;NA;NA;NA;Solo (Spanish Cover);NA;NA;NA;NA;NA;NA;NA;NA
+R_21qsGfEoy0oJivL;NA;NA;NA;NA;NA;NA;3;NA;NA;NA;NA;NA;Lost on You - LP (Original);NA;NA;NA;NA;NA;NA;NA;NA
+R_21qsGfEoy0oJivL;NA;NA;NA;NA;NA;NA;4;NA;NA;NA;NA;NA;Lost on You (Spanish Cover);NA;NA;NA;NA;NA;NA;NA;NA
+R_21qsGfEoy0oJivL;NA;NA;NA;NA;NA;NA;5;NA;NA;NA;NA;NA;Issues - Julia Michaels (Original);NA;NA;NA;NA;NA;NA;NA;NA
+R_21qsGfEoy0oJivL;NA;NA;NA;NA;NA;NA;6;NA;NA;NA;NA;NA;Issues (French Cover);NA;NA;NA;NA;NA;NA;NA;NA
+R_58A2KkV214guebP;4-6 times a week;03/May;C2;21-25;No;Yes;1;5;1;4;5;3;Solo - Clean Bandit (Original);5;1;4;5;Melody;03/May;C2;English + Spanish
+R_58A2KkV214guebP;4-6 times a week;03/May;C2;21-25;No;Yes;2;4;2;4;5;3;Solo (Spanish Cover);4;2;4;5;Melody;03/May;C2;English + Spanish
+R_58A2KkV214guebP;4-6 times a week;03/May;C2;21-25;No;Yes;3;5;7;3;5;1;Lost on You - LP (Original);5;7;3;5;Melody;03/May;C2;English + Spanish
+R_58A2KkV214guebP;4-6 times a week;03/May;C2;21-25;No;Yes;4;5;6;3;5;2;Lost on You (Spanish Cover);5;6;3;5;Melody;03/May;C2;English + Spanish
+R_58A2KkV214guebP;4-6 times a week;03/May;C2;21-25;No;Yes;5;5;1;3;5;3;Issues - Julia Michaels (Original);5;1;3;5;Melody;03/May;C2;English + Spanish
+R_58A2KkV214guebP;4-6 times a week;03/May;C2;21-25;No;Yes;6;5;1;4;3;3;Issues (French Cover);5;1;4;3;Rhythm/beat;03/May;C2;English + Spanish
+R_2lStIoq5n9gzS79;Daily;0;C2;18-20;No;No;1;7;7;6;5;1;Solo - Clean Bandit (Original);7;7;6;5;Other;0;C2;English only
+R_2lStIoq5n9gzS79;Daily;0;C2;18-20;No;No;2;5;6;5;2;2;Solo (Spanish Cover);5;6;5;2;Lyrics;0;C2;English only
+R_2lStIoq5n9gzS79;Daily;0;C2;18-20;No;No;3;6;6;6;4;3;Lost on You - LP (Original);6;6;6;4;Rhythm/beat;0;C2;English only
+R_2lStIoq5n9gzS79;Daily;0;C2;18-20;No;No;4;2;3;3;1;3;Lost on You (Spanish Cover);2;3;3;1;Lyrics;0;C2;English only
+R_2lStIoq5n9gzS79;Daily;0;C2;18-20;No;No;5;3;3;3;5;3;Issues - Julia Michaels (Original);3;3;3;5;Rhythm/beat;0;C2;English only
+R_2lStIoq5n9gzS79;Daily;0;C2;18-20;No;No;6;3;3;2;1;3;Issues (French Cover);3;3;2;1;Lyrics;0;C2;English only
+R_8zwp2UizdHn2g6t;Daily;6+;B2;21-25;No;No;1;5;1;5;1;3;Solo - Clean Bandit (Original);5;1;5;1;Lyrics;6+;B2;English only
+R_8zwp2UizdHn2g6t;Daily;6+;B2;21-25;No;No;2;5;1;6;1;3;Solo (Spanish Cover);5;1;6;1;Lyrics;6+;B2;English only
+R_8zwp2UizdHn2g6t;Daily;6+;B2;21-25;No;No;3;5;1;6;1;2;Lost on You - LP (Original);5;1;6;1;Lyrics;6+;B2;English only
+R_8zwp2UizdHn2g6t;Daily;6+;B2;21-25;No;No;4;3;1;4;1;3;Lost on You (Spanish Cover);3;1;4;1;Lyrics;6+;B2;English only
+R_8zwp2UizdHn2g6t;Daily;6+;B2;21-25;No;No;5;5;1;5;1;3;Issues - Julia Michaels (Original);5;1;5;1;Rhythm/beat;6+;B2;English only
+R_8zwp2UizdHn2g6t;Daily;6+;B2;21-25;No;No;6;5;1;5;1;3;Issues (French Cover);5;1;5;1;Rhythm/beat;6+;B2;English only
+R_9KwoDVUXDGinKmL;Daily;6+;C2;18-20;Yes;No;1;5;7;6;5;3;Solo - Clean Bandit (Original);5;7;6;5;Lyrics;6+;C2;English + French
+R_9KwoDVUXDGinKmL;Daily;6+;C2;18-20;Yes;No;2;3;7;5;1;3;Solo (Spanish Cover);3;7;5;1;Lyrics;6+;C2;English + French
+R_9KwoDVUXDGinKmL;Daily;6+;C2;18-20;Yes;No;3;5;1;5;5;3;Lost on You - LP (Original);5;1;5;5;Rhythm/beat;6+;C2;English + French
+R_9KwoDVUXDGinKmL;Daily;6+;C2;18-20;Yes;No;4;3;1;4;1;3;Lost on You (Spanish Cover);3;1;4;1;Lyrics;6+;C2;English + French
+R_9KwoDVUXDGinKmL;Daily;6+;C2;18-20;Yes;No;5;1;1;4;5;3;Issues - Julia Michaels (Original);1;1;4;5;Lyrics;6+;C2;English + French
+R_9KwoDVUXDGinKmL;Daily;6+;C2;18-20;Yes;No;6;1;1;4;5;3;Issues (French Cover);1;1;4;5;Lyrics;6+;C2;English + French
+R_8Lil9Agb1Gd353x;Daily;03/May;C2;18-20;No;Yes;1;4;6;5;5;1;Solo - Clean Bandit (Original);4;6;5;5;Melody;03/May;C2;English + Spanish
+R_8Lil9Agb1Gd353x;Daily;03/May;C2;18-20;No;Yes;2;3;4;3;4;3;Solo (Spanish Cover);3;4;3;4;Rhythm/beat;03/May;C2;English + Spanish
+R_8Lil9Agb1Gd353x;Daily;03/May;C2;18-20;No;Yes;3;5;6;5;5;1;Lost on You - LP (Original);5;6;5;5;Rhythm/beat;03/May;C2;English + Spanish
+R_8Lil9Agb1Gd353x;Daily;03/May;C2;18-20;No;Yes;4;4;5;4;3;3;Lost on You (Spanish Cover);4;5;4;3;Rhythm/beat;03/May;C2;English + Spanish
+R_8Lil9Agb1Gd353x;Daily;03/May;C2;18-20;No;Yes;5;5;6;5;5;3;Issues - Julia Michaels (Original);5;6;5;5;Lyrics;03/May;C2;English + Spanish
+R_8Lil9Agb1Gd353x;Daily;03/May;C2;18-20;No;Yes;6;4;5;5;1;3;Issues (French Cover);4;5;5;1;Lyrics;03/May;C2;English + Spanish
+R_8GkcuHxxkTGPACB;Daily;0;B2;21-25;Yes;No;1;6;7;6;5;2;Solo - Clean Bandit (Original);6;7;6;5;Lyrics;0;B2;English + French
+R_8GkcuHxxkTGPACB;Daily;0;B2;21-25;Yes;No;2;6;7;6;1;2;Solo (Spanish Cover);6;7;6;1;Lyrics;0;B2;English + French
+R_8GkcuHxxkTGPACB;Daily;0;B2;21-25;Yes;No;3;6;7;3;4;2;Lost on You - LP (Original);6;7;3;4;Lyrics;0;B2;English + French
+R_8GkcuHxxkTGPACB;Daily;0;B2;21-25;Yes;No;4;5;5;3;1;2;Lost on You (Spanish Cover);5;5;3;1;Lyrics;0;B2;English + French
+R_8GkcuHxxkTGPACB;Daily;0;B2;21-25;Yes;No;5;2;2;4;5;3;Issues - Julia Michaels (Original);2;2;4;5;Lyrics;0;B2;English + French
+R_8GkcuHxxkTGPACB;Daily;0;B2;21-25;Yes;No;6;2;6;4;4;3;Issues (French Cover);2;6;4;4;Melody;0;B2;English + French

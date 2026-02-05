@@ -104,7 +104,7 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
 <strong>Key Finding</strong>
-WIP
+<p>Melody and vocal expression appear to dominate emotional responses regardless of lyric comprehension level.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -139,9 +139,6 @@ WIP
 <p><strong>Research Focus</strong></p>
 <p>Music is an integral part of everyday life and has the ability to evoke strong emotional responses, even when listeners do not understand the language of a song. While lyrics convey semantic meaning that may influence emotional interpretation, listeners often report similar emotional experiences when hearing cover versions in unfamiliar languages, suggesting that melody, rhythm, and vocal expression may play a more dominant role than lyrical comprehension.</p>
 <p>This raises an important question about what truly shapes emotional responses to music: the meaning of the lyrics or the musical features themselves?</p>
-<p><strong>Research Question</strong></p>
-<p><em>To what extent do lyrics, compared to melody, influence emotional responses to music?</em></p>
-<hr>
 <p><strong>Songs Analyzed</strong></p>
 <ul>
 <li>Solo - Clean Bandit (Original)</li>
@@ -153,7 +150,12 @@ WIP
 </ul>
 <hr>
 <p><strong>Key Measures</strong></p>
-<p>WIP</p>
+<ul>
+<li>Emotional Intensity (1-7)</li>
+<li>Valence (1-6)</li>
+<li>Familiarity (1-7)</li>
+<li>Lyric Comprehension (1-5)</li>
+</ul>
 </div></aside>
 <button class="collapse-toggle" type="button" title="Toggle sidebar" aria-expanded="true" aria-controls="bslib-sidebar-1">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-chevron-left collapse-icon" style="fill:currentColor;" aria-hidden="true" role="img">
@@ -204,22 +206,22 @@ Dual Group Comparison
 </div>
 </div></div><aside id="bslib-sidebar-2" class="sidebar html-fill-container html-fill-item"><div class="html-fill-item html-fill-container">
 <p><strong>Demographics Overview</strong></p>
-<p><strong>N = 32</strong> completed responses</p>
+<p><strong>N = 39</strong> completed responses</p>
 <p><strong>Age Distribution</strong></p>
 <ul>
-<li>87.5% aged 18-25</li>
+<li>87% aged 18-25</li>
 <li>Young adult sample</li>
 </ul>
 <p><strong>Music Engagement</strong></p>
 <ul>
-<li>81% daily listeners</li>
-<li>56% have musical training</li>
+<li>80% daily listeners</li>
+<li>54% have musical training</li>
 </ul>
 <p><strong>Language Proficiency</strong></p>
 <ul>
 <li>56% advanced English (C1-C2)</li>
-<li>9% French B1+</li>
-<li>6% Spanish B1+</li>
+<li>13% French B1+</li>
+<li>10% Spanish B1+</li>
 </ul>
 <hr>
 <p><strong>Language Groups</strong></p>
@@ -238,7 +240,7 @@ Dual Group Comparison
 </ul>
 <hr>
 <p><strong>Age Ranges</strong></p>
-<p>18-20, 21-25, 26-30, 31-35, 36-40, 41+</p>
+<p>18-20, 21-25, 26-30, 31-40, 41+</p>
 </div></aside>
 <button class="collapse-toggle" type="button" title="Toggle sidebar" aria-expanded="true" aria-controls="bslib-sidebar-2">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-chevron-left collapse-icon" style="fill:currentColor;" aria-hidden="true" role="img">
@@ -253,14 +255,14 @@ bslib.Sidebar.initCollapsibleAll()
 <div class="bslib-sidebar-layout html-fill-item html-fill-container" data-bslib-sidebar-open="desktop" data-bslib-sidebar-init="true"><div class="main html-fill-container html-fill-item"><div class="sidebar-content html-fill-item html-fill-container">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 50fr) minmax(3em, 50fr);
 grid-auto-rows: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-WIP
-<strong>Methodology</strong>
-WIP
+<div class="card cell html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container" style="padding: 0px;">
+<div class="cell-output-display html-fill-item html-fill-container">
+<img src="selected_plots/13_regression_comprehension_emotion.png" class="img-fluid quarto-dashboard-img-contain">
+</div>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -271,9 +273,11 @@ WIP
 </div>
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container flow">
-WIP
+<div class="card cell html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container" style="padding: 0px;">
+<div class="cell-output-display html-fill-item html-fill-container">
+<img src="selected_plots/14_regression_comprehension_valence.png" class="img-fluid quarto-dashboard-img-contain">
+</div>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -286,8 +290,16 @@ WIP
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container flow">
-WIP
+<div class="card-body html-fill-item html-fill-container">
+<p>This study examines whether understanding song lyrics affects emotional responses to music. We collected data from 39 participants who listened to 6 songs (3 originals and 3 cover versions in different languages).</p>
+<strong>Methodology</strong>
+<p>Participants rated each song on:</p>
+<ul>
+<li><strong>Emotional Intensity</strong> (1-7 scale): How strongly the music affected them</li>
+<li><strong>Valence</strong> (1-6 scale): How positive/negative the emotional response was</li>
+<li><strong>Lyric Comprehension</strong> (1-5 scale): How well they understood the lyrics</li>
+</ul>
+<p>We then performed linear regression to determine if comprehension predicts emotional response.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -299,8 +311,10 @@ WIP
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container flow">
-WIP
+<div class="card-body html-fill-item html-fill-container">
+<p>A <strong>significant positive slope</strong> (p &lt; 0.05) would indicate that understanding lyrics enhances emotional response, supporting the “lyrics matter” hypothesis.</p>
+<p>A <strong>non-significant relationship</strong> (p ≥ 0.05) would suggest that melody, rhythm, and vocal expression dominate emotional response regardless of lyric comprehension.</p>
+<p>The <strong>R² value</strong> indicates what proportion of variance in emotional response is explained by comprehension level.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -312,8 +326,22 @@ WIP
 </div>
 </div>
 </div></div><aside id="bslib-sidebar-3" class="sidebar html-fill-container html-fill-item"><div class="html-fill-item html-fill-container">
-<p><strong>Research Questions</strong></p>
-<p>WIP</p>
+<p><strong>Research Question</strong></p>
+<p><em>To what extent do lyrics, compared to melody, influence emotional responses to music?</em></p>
+<hr>
+<p><strong>Hypothesis Test</strong></p>
+<p>We use regression analysis to test whether lyric comprehension predicts emotional response:</p>
+<ul>
+<li><strong>If lyrics dominate</strong>: Higher comprehension → stronger/more positive emotional response (significant positive slope)</li>
+<li><strong>If melody dominates</strong>: Comprehension has little effect (flat slope, non-significant p-value)</li>
+</ul>
+<hr>
+<p><strong>Statistical Measures</strong></p>
+<ul>
+<li><strong>R²</strong>: Variance explained by comprehension</li>
+<li><strong>p-value</strong>: Statistical significance of the relationship</li>
+<li><strong>Regression line</strong>: Direction and strength of effect</li>
+</ul>
 </div></aside>
 <button class="collapse-toggle" type="button" title="Toggle sidebar" aria-expanded="true" aria-controls="bslib-sidebar-3">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-chevron-left collapse-icon" style="fill:currentColor;" aria-hidden="true" role="img">
@@ -377,7 +405,7 @@ grid-auto-rows: minmax(0, 1fr);">
 </div>
 </div></div><aside id="bslib-sidebar-4" class="sidebar html-fill-container html-fill-item"><div class="html-fill-item html-fill-container">
 <p><strong>Visualization Gallery</strong></p>
-<p>WIP</p>
+<p>Advanced chart types from the R Graph Gallery.</p>
 <hr>
 <p><strong>Plot Types</strong></p>
 <ul>

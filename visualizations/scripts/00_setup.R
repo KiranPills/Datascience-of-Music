@@ -1,6 +1,4 @@
-# ============================================================
 # 00_setup.R - Package Loading and Global Theme Settings
-# ============================================================
 
 # Core packages
 library(tidyverse)
@@ -15,9 +13,7 @@ library(viridis)
 library(scales)
 library(patchwork)
 
-# ============================================================
-# Color Palettes for Grouping Variables
-# ============================================================
+# Color Palettes
 
 palette_listening_freq <- c(
   "Daily" = "#2E86AB",
@@ -39,11 +35,15 @@ palette_age <- c(
   "41+" = "#083D77"
 )
 
+palette_language <- c(
+  "English only" = "#2E86AB",
+  "English + French" = "#A23B72",
+  "English + Spanish" = "#F18F01"
+)
+
 palette_songs <- viridis::viridis(6, option = "D")
 
-# ============================================================
 # Global ggplot Theme
-# ============================================================
 
 theme_music <- theme_minimal(base_size = 12) +
   theme(
@@ -56,22 +56,18 @@ theme_music <- theme_minimal(base_size = 12) +
 
 theme_set(theme_music)
 
-# ============================================================
 # Export Settings
-# ============================================================
 
 export_width <- 10
 export_height <- 7
 export_dpi <- 300
 
-# Project paths (using here for portability)
+# Project paths
 project_dir <- here::here()
 plots_multivariate <- file.path(project_dir, "visualizations/plots/multivariate")
 plots_advanced <- file.path(project_dir, "visualizations/plots/advanced")
 
-# ============================================================
 # Helper Functions
-# ============================================================
 
 save_plot <- function(plot, filename, folder,
                       width = export_width,

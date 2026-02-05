@@ -1,14 +1,8 @@
-# ============================================================
 # 02_multivariate.R - Multivariate Visualizations
-# ============================================================
 
-source("visualizations/scripts/01_data_cleaning.R")
+source("visualizations/scripts/01b_load_cleaned_data.R")
 
-cat("\n=== Creating Multivariate Plots ===\n")
-
-# ============================================================
-# A. SCATTER PLOTS WITH COLOR BY GROUP
-# ============================================================
+# Scatter Plots
 
 # Plot 1: Emotional Intensity vs Valence, colored by Listening Frequency
 p_scatter_emotion_valence <- ggplot(
@@ -65,9 +59,7 @@ p_scatter_dual_group <- ggplot(
 
 save_plot(p_scatter_dual_group, "03_scatter_dual_group.png", plots_multivariate)
 
-# ============================================================
-# B. STACKED BAR CHARTS
-# ============================================================
+# Stacked Bar Charts
 
 # Plot 7: Stacked bar chart for element influence
 element_summary <- survey_long %>%
@@ -93,16 +85,7 @@ p_stacked_bar <- ggplot(
 
 save_plot(p_stacked_bar, "07_stacked_bar_elements.png", plots_multivariate)
 
-# ============================================================
-# C. LANGUAGE GROUP COMPARISON (B1+ English with French/Spanish)
-# ============================================================
-
-# Define palette for language groups
-palette_language <- c(
-  "English only" = "#2E86AB",
-  "English + French" = "#A23B72",
-  "English + Spanish" = "#F18F01"
-)
+# Language Group Comparison
 
 # Plot 12: Box plot comparing all measures by language group
 language_comparison <- survey_long %>%
@@ -143,6 +126,3 @@ p_language_comparison <- ggplot(
   )
 
 save_plot(p_language_comparison, "12_language_group_comparison.png", plots_multivariate)
-
-cat("\n=== Multivariate plots complete! ===\n")
-cat("Output folder:", plots_multivariate, "\n")

@@ -17,12 +17,6 @@ Music is an integral part of everyday life and has the ability to evoke strong e
 
 This raises an important question about what truly shapes emotional responses to music: the meaning of the lyrics or the musical features themselves?
 
-**Research Question**
-
-*To what extent do lyrics, compared to melody, influence emotional responses to music?*
-
----
-
 **Songs Analyzed**
 
 - Solo - Clean Bandit (Original)
@@ -36,7 +30,10 @@ This raises an important question about what truly shapes emotional responses to
 
 **Key Measures**
 
-WIP
+- Emotional Intensity (1-7)
+- Valence (1-6)
+- Familiarity (1-7)
+- Lyric Comprehension (1-5)
 
 ## Column 1 {width=60%}
 
@@ -52,7 +49,7 @@ knitr::include_graphics("selected_plots/01_scatter_emotion_valence.png")
 
 **Key Finding**
 
-WIP
+Melody and vocal expression appear to dominate emotional responses regardless of lyric comprehension level.
 
 ### Row 2 {.tabset}
 
@@ -74,23 +71,23 @@ knitr::include_graphics("selected_plots/07_stacked_bar_elements.png")
 
 **Demographics Overview**
 
-**N = 32** completed responses
+**N = 39** completed responses
 
 **Age Distribution**
 
-- 87.5% aged 18-25
+- 87% aged 18-25
 - Young adult sample
 
 **Music Engagement**
 
-- 81% daily listeners
-- 56% have musical training
+- 80% daily listeners
+- 54% have musical training
 
 **Language Proficiency**
 
 - 56% advanced English (C1-C2)
-- 9% French B1+
-- 6% Spanish B1+
+- 13% French B1+
+- 10% Spanish B1+
 
 ---
 
@@ -113,7 +110,7 @@ knitr::include_graphics("selected_plots/07_stacked_bar_elements.png")
 
 **Age Ranges**
 
-18-20, 21-25, 26-30, 31-35, 36-40, 41+
+18-20, 21-25, 26-30, 31-40, 41+
 
 ## Column 1 {width=50%}
 
@@ -135,33 +132,66 @@ knitr::include_graphics("selected_plots/03_scatter_dual_group.png")
 
 ## {.sidebar}
 
-**Research Questions**
+**Research Question**
 
-WIP
+*To what extent do lyrics, compared to melody, influence emotional responses to music?*
+
+---
+
+**Hypothesis Test**
+
+We use regression analysis to test whether lyric comprehension predicts emotional response:
+
+- **If lyrics dominate**: Higher comprehension → stronger/more positive emotional response (significant positive slope)
+- **If melody dominates**: Comprehension has little effect (flat slope, non-significant p-value)
+
+---
+
+**Statistical Measures**
+
+- **R²**: Variance explained by comprehension
+- **p-value**: Statistical significance of the relationship
+- **Regression line**: Direction and strength of effect
 
 ## Column 1 {width=50%}
 
-### Study Overview
+### Comprehension → Emotional Intensity
 
-WIP
+```{r}
+#| padding: 0px
+knitr::include_graphics("selected_plots/13_regression_comprehension_emotion.png")
+```
 
-**Methodology**
+### Comprehension → Valence
 
-WIP
-
-### Data Collection
-
-WIP
+```{r}
+#| padding: 0px
+knitr::include_graphics("selected_plots/14_regression_comprehension_valence.png")
+```
 
 ## Column 2 {width=50%}
 
-### Songs in the Study
+### Study Overview
 
-WIP
+This study examines whether understanding song lyrics affects emotional responses to music. We collected data from 39 participants who listened to 6 songs (3 originals and 3 cover versions in different languages).
 
-### Measures Used
+**Methodology**
 
-WIP
+Participants rated each song on:
+
+- **Emotional Intensity** (1-7 scale): How strongly the music affected them
+- **Valence** (1-6 scale): How positive/negative the emotional response was
+- **Lyric Comprehension** (1-5 scale): How well they understood the lyrics
+
+We then performed linear regression to determine if comprehension predicts emotional response.
+
+### Interpreting the Results
+
+A **significant positive slope** (p < 0.05) would indicate that understanding lyrics enhances emotional response, supporting the "lyrics matter" hypothesis.
+
+A **non-significant relationship** (p ≥ 0.05) would suggest that melody, rhythm, and vocal expression dominate emotional response regardless of lyric comprehension.
+
+The **R² value** indicates what proportion of variance in emotional response is explained by comprehension level.
 
 # Extras
 
@@ -169,7 +199,7 @@ WIP
 
 **Visualization Gallery**
 
-WIP
+Advanced chart types from the R Graph Gallery.
 
 ---
 

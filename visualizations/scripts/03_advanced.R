@@ -1,14 +1,8 @@
-# ============================================================
 # 03_advanced.R - R Graph Gallery Style Visualizations
-# ============================================================
 
-source("visualizations/scripts/01_data_cleaning.R")
+source("visualizations/scripts/01b_load_cleaned_data.R")
 
-cat("\n=== Creating Advanced Gallery Plots ===\n")
-
-# ============================================================
-# A. RIDGELINE PLOTS (ggridges)
-# ============================================================
+# Ridgeline Plots
 
 # Plot 1: Emotional Intensity distributions across songs
 p_ridgeline_emotion <- ggplot(
@@ -33,9 +27,7 @@ p_ridgeline_emotion <- ggplot(
 
 save_plot(p_ridgeline_emotion, "01_ridgeline_emotion.png", plots_advanced, height = 8)
 
-# ============================================================
-# B. HEATMAPS
-# ============================================================
+# Heatmaps
 
 # Plot 5: Heatmap of mean scores (Song x Measure)
 heatmap_data <- song_summary %>%
@@ -66,9 +58,7 @@ p_heatmap_songs <- ggplot(
 
 save_plot(p_heatmap_songs, "05_heatmap_songs.png", plots_advanced, width = 8, height = 6)
 
-# ============================================================
-# C. VIOLIN PLOTS
-# ============================================================
+# Violin Plots
 
 # Plot 7: Basic violin with box plot inside
 p_violin_basic <- ggplot(
@@ -88,9 +78,7 @@ p_violin_basic <- ggplot(
 
 save_plot(p_violin_basic, "07_violin_basic.png", plots_advanced)
 
-# ============================================================
-# D. DUMBBELL CHARTS
-# ============================================================
+# Dumbbell Charts
 
 # Plot 10: Dumbbell comparing two groups
 dumbbell_data <- survey_long %>%
@@ -118,6 +106,3 @@ p_dumbbell <- ggplot(dumbbell_data) +
   theme(panel.grid.major.y = element_blank())
 
 save_plot(p_dumbbell, "10_dumbbell.png", plots_advanced, height = 6)
-
-cat("\n=== Advanced gallery plots complete! ===\n")
-cat("Output folder:", plots_advanced, "\n")
