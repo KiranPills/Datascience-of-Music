@@ -220,6 +220,12 @@ In contrast to emotional response strength and valence, lyric comprehension sign
 
 For memory, comprehension also emerged as a significant predictor, though in the opposite direction. Greater comprehension was associated with slightly lower memory scores (β = −0.05, p = 0.027). As with familiarity, the explanatory power of the model was limited (R² = 0.025), indicating that comprehension accounts for only a small fraction of variability in memory performance.
 
+### Familiarity (Stata)
+
+When familiarity was regressed on lyric comprehension, the results indicated a positive and statistically significant relationship (β = 0.26, p = 0.002). This suggests that participants who reported better understanding of the lyrics also tended to report higher familiarity with the song. However, the model explained only a modest portion of the variance in familiarity (R² = 0.048), indicating that while comprehension contributes to familiarity, it accounts for less than 5 percent of the variation.
+
+These findings imply that understanding the lyrics slightly enhances perceived familiarity, but other factors, such as prior exposure to the song, musical structure, or general listening habits, likely play a much larger role in shaping how familiar a listener feels with a track.
+
 ### Conclusion
 
 Taken together, these findings suggest a dissociation between emotional and cognitive outcomes. While lyric comprehension does not meaningfully influence the emotional strength or valence of listeners' responses, it does relate to more cognitively oriented judgments such as familiarity and memory. However, the small R² values indicate that these relationships are weak and that other factors, such as prior exposure, musical structure, repetition, or attentional engagement are more likely to play a much larger role.
