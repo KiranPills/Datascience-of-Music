@@ -147,31 +147,7 @@ We use regression analysis to test whether lyric comprehension predicts emotiona
 - **If lyrics dominate**: Higher comprehension → stronger/more positive emotional response (significant positive slope)
 - **If melody dominates**: Comprehension has little effect (flat slope, non-significant p-value)
 
----
-
-**Statistical Measures**
-
-- **R²**: Variance explained by comprehension
-- **p-value**: Statistical significance of the relationship
-- **Regression line**: Direction and strength of effect
-
-## Column 1 {width=50%}
-
-### Comprehension → Emotional Intensity
-
-```{r}
-#| padding: 0px
-knitr::include_graphics("selected_plots/13_regression_comprehension_emotion.png")
-```
-
-### Comprehension → Valence
-
-```{r}
-#| padding: 0px
-knitr::include_graphics("selected_plots/14_regression_comprehension_valence.png")
-```
-
-## Column 2 {width=50%}
+## Column {width=100%}
 
 ### Study Overview
 
@@ -187,13 +163,68 @@ Participants rated each song on:
 
 We then performed linear regression to determine if comprehension predicts emotional response.
 
-### Interpreting the Results
+# Analysis
 
-A **significant positive slope** (p < 0.05) would indicate that understanding lyrics enhances emotional response, supporting the "lyrics matter" hypothesis.
+## {.sidebar}
 
-A **non-significant relationship** (p ≥ 0.05) would suggest that melody, rhythm, and vocal expression dominate emotional response regardless of lyric comprehension.
+**Regression Analysis**
 
-The **R² value** indicates what proportion of variance in emotional response is explained by comprehension level.
+OLS regression testing whether lyric comprehension predicts emotional and cognitive outcomes.
+
+---
+
+**Models Tested**
+
+- Emotional Response
+- Valence
+- Familiarity
+- Memory
+
+## Column 1 {width=50%}
+
+### {.tabset}
+
+```{r}
+#| title: Comprehension → Emotion
+#| padding: 0px
+knitr::include_graphics("selected_plots/13_regression_comprehension_emotion.png")
+```
+
+```{r}
+#| title: Comprehension → Valence
+#| padding: 0px
+knitr::include_graphics("selected_plots/14_regression_comprehension_valence.png")
+```
+
+```{r}
+#| title: Stata Output
+#| padding: 0px
+knitr::include_graphics("selected_plots/stata_regression_familiarity.png")
+```
+
+## Column 2 {width=50%}
+
+### Emotional Response & Valence
+
+::: {style="overflow-y: auto; max-height: 80vh;"}
+
+After estimating two linear regression models, we examined whether lyric comprehension predicts (a) emotional response strength and (b) emotional valence. In the first model, emotional response was regressed on comprehension. The coefficient for comprehension was positive (β = 0.10), but not statistically significant (p = 0.109). The model explained only 1.3% of the variance in emotional response (R² = 0.013), indicating a very weak relationship.
+
+In the second model, valence was regressed on comprehension. Again, the coefficient was positive but extremely small (β = 0.02) and clearly non-significant (p = 0.719). The explanatory power of the model was negligible, with an R² of 0.001, suggesting that comprehension accounts for virtually none of the variation in emotional valence.
+
+Taken together, these results provide no statistical evidence that understanding song lyrics meaningfully influences either the strength or the positivity of listeners' emotional responses. Although the estimated effects are in the expected positive direction, their magnitude is minimal and indistinguishable from zero. This suggests that emotional reactions to music in this sample are largely independent of lyric comprehension and may instead be driven by non-linguistic musical features such as melody, harmony, rhythm, or familiarity.
+
+### Familiarity & Memory
+
+In contrast to emotional response strength and valence, lyric comprehension significantly predicted both familiarity and memory. When familiarity was regressed on comprehension, the effect was positive and statistically significant (β = 0.26, p = 0.002). Higher comprehension was associated with greater perceived familiarity, although the model explained a modest proportion of variance (R² = 0.048). This suggests that understanding the lyrics contributes to familiarity, but is far from the sole determinant.
+
+For memory, comprehension also emerged as a significant predictor, though in the opposite direction. Greater comprehension was associated with slightly lower memory scores (β = −0.05, p = 0.027). As with familiarity, the explanatory power of the model was limited (R² = 0.025), indicating that comprehension accounts for only a small fraction of variability in memory performance.
+
+### Conclusion
+
+Taken together, these findings suggest a dissociation between emotional and cognitive outcomes. While lyric comprehension does not meaningfully influence the emotional strength or valence of listeners' responses, it does relate to more cognitively oriented judgments such as familiarity and memory. However, the small R² values indicate that these relationships are weak and that other factors, such as prior exposure, musical structure, repetition, or attentional engagement are more likely to play a much larger role.
+
+:::
 
 # Extras
 
