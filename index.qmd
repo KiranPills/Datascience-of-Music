@@ -37,10 +37,18 @@ This raises an important question about what truly shapes emotional responses to
 
 ## Column 1 {width=60%}
 
+### {.tabset}
+
 ```{r}
-#| title: Emotional Response vs Valence by Song
+#| title: Musical Elements
 #| padding: 0px
-knitr::include_graphics("selected_plots/01_scatter_emotion_valence.png")
+knitr::include_graphics("selected_plots/07_stacked_bar_elements.png")
+```
+
+```{r}
+#| title: Language Groups
+#| padding: 0px
+knitr::include_graphics("selected_plots/12_language_group_comparison.png")
 ```
 
 ## Column 2 {width=40%}
@@ -51,18 +59,12 @@ knitr::include_graphics("selected_plots/01_scatter_emotion_valence.png")
 
 Melody and vocal expression appear to dominate emotional responses regardless of lyric comprehension level.
 
-### Row 2 {.tabset}
+### Row 2
 
 ```{r}
-#| title: Language Groups
+#| title: Emotional Response vs Valence by Song
 #| padding: 0px
-knitr::include_graphics("selected_plots/12_language_group_comparison.png")
-```
-
-```{r}
-#| title: Musical Elements
-#| padding: 0px
-knitr::include_graphics("selected_plots/07_stacked_bar_elements.png")
+knitr::include_graphics("selected_plots/01_scatter_emotion_valence.png")
 ```
 
 # The Participants

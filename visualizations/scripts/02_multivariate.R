@@ -28,7 +28,7 @@ p_scatter_familiar_comp <- ggplot(
   aes(x = comprehension_num, y = familiarity_num, color = english_simple)
 ) +
   geom_jitter(alpha = 0.7, size = 3, width = 0.15, height = 0.15) +
-  scale_color_viridis_d(option = "plasma", na.value = "gray70") +
+  scale_color_manual(values = palette_english_level, na.value = "gray70") +
   labs(
     title = "Familiarity vs. Lyric Comprehension by English Proficiency",
     x = "Lyric Comprehension (1-5)",
@@ -73,7 +73,7 @@ p_stacked_bar <- ggplot(
   aes(x = song, y = pct, fill = element)
 ) +
   geom_col(position = "stack") +
-  scale_fill_brewer(palette = "Set2") +
+  scale_fill_manual(values = palette_elements) +
   labs(
     title = "Which Element Influenced Emotion Most?",
     subtitle = "Percentage breakdown by song",

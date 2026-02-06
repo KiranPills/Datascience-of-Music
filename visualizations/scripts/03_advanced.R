@@ -16,7 +16,7 @@ p_ridgeline_emotion <- ggplot(
     quantile_lines = TRUE,
     quantiles = 2
   ) +
-  scale_fill_viridis_d(option = "D") +
+  scale_fill_manual(values = setNames(palette_songs, levels(factor(survey_long$song)))) +
   labs(
     title = "Distribution of Emotional Intensity Across Songs",
     subtitle = "Ridgeline plot with median lines",
@@ -43,8 +43,11 @@ p_heatmap_songs <- ggplot(
   aes(x = measure, y = song, fill = mean_score)
 ) +
   geom_tile(color = "white", linewidth = 0.5) +
-  geom_text(aes(label = round(mean_score, 2)), color = "white", size = 4) +
-  scale_fill_viridis_c(option = "magma") +
+  geom_text(aes(label = round(mean_score, 2),
+                color = ifelse(mean_score > 3.5, "white", "gray20")),
+            size = 4, show.legend = FALSE) +
+  scale_color_identity() +
+  scale_fill_gradient(low = "#F0E0FF", high = "#4A0072") +
   labs(
     title = "Mean Scores Heatmap: Songs x Measures",
     x = "Measure",
@@ -67,7 +70,7 @@ p_violin_basic <- ggplot(
 ) +
   geom_violin(alpha = 0.7, trim = FALSE) +
   geom_boxplot(width = 0.15, fill = "white", alpha = 0.8) +
-  scale_fill_viridis_d() +
+  scale_fill_manual(values = setNames(palette_songs, levels(factor(survey_long$song)))) +
   labs(
     title = "Emotional Intensity Distribution by Song",
     subtitle = "Violin plots with embedded box plots",
@@ -95,11 +98,11 @@ p_dumbbell <- ggplot(dumbbell_data) +
     color = "gray60",
     linewidth = 1.5
   ) +
-  geom_point(aes(x = daily, y = song), color = "#2E86AB", size = 5) +
-  geom_point(aes(x = less_weekly, y = song), color = "#F18F01", size = 5) +
+  geom_point(aes(x = daily, y = song), color = "#4A0072", size = 5) +
+  geom_point(aes(x = less_weekly, y = song), color = "#D7B8E8", size = 5) +
   labs(
     title = "Emotional Intensity: Daily vs. Less Than Weekly Listeners",
-    subtitle = "Blue = Daily, Orange = Less than weekly",
+    subtitle = "Dark purple = Daily, Light purple = Less than weekly",
     x = "Mean Emotional Intensity",
     y = "Song"
   ) +

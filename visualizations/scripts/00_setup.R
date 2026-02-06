@@ -13,35 +13,55 @@ library(viridis)
 library(scales)
 library(patchwork)
 
-# Color Palettes
+# Color Palettes (light-to-dark purple: weaker → stronger)
 
 palette_listening_freq <- c(
-  "Daily" = "#2E86AB",
-  "4-6 times a week" = "#A23B72",
-  "Less than weekly" = "#F18F01"
+  "Less than weekly" = "#D7B8E8",
+  "4-6 times a week" = "#8E44AD",
+  "Daily" = "#4A0072"
 )
 
 palette_musical_training <- c(
-  "0" = "#E8E8E8",
-  "1-2" = "#B8D4E3",
-  "3-5" = "#7FB3D5",
-  "6+" = "#2874A6"
+  "0" = "#F0E0FF",
+  "1-2" = "#C89BE0",
+  "3-5" = "#8E44AD",
+  "6+" = "#4A0072"
 )
 
 palette_age <- c(
-  "18-20" = "#F4D35E",
-  "21-25" = "#EE964B",
-  "26-30" = "#F95738",
-  "41+" = "#083D77"
+  "18-20" = "#F0E0FF",
+  "21-25" = "#C89BE0",
+  "26-30" = "#8E44AD",
+  "41+" = "#4A0072"
 )
 
 palette_language <- c(
-  "English only" = "#2E86AB",
-  "English + French" = "#A23B72",
-  "English + Spanish" = "#F18F01"
+  "English only" = "#D7B8E8",
+  "English + French" = "#8E44AD",
+  "English + Spanish" = "#4A0072"
 )
 
-palette_songs <- viridis::viridis(6, option = "D")
+palette_english_level <- c(
+  "A1" = "#F0E0FF",
+  "A2" = "#D4B3F7",
+  "B1" = "#B87DD8",
+  "B2" = "#9B4DCA",
+  "C1" = "#7B2FA0",
+  "C2" = "#4A0072"
+)
+
+palette_elements <- c(
+  "Lyrics" = "#4A0072",
+  "Melody" = "#9B4DCA",
+  "Voice/timbre" = "#D4B3F7",
+  "Not sure" = "#B8A9C9",
+  "Other" = "#E8BFD8"
+)
+
+palette_songs <- c(
+  "#F0E0FF", "#D4B3F7", "#B87DD8",
+  "#8E44AD", "#6A1B9A", "#4A0072"
+)
 
 # Global ggplot Theme
 

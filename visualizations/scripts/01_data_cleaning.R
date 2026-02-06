@@ -83,13 +83,14 @@ map_yes_no <- function(x) {
   )
 }
 
-# Element: 1=Melody, 2=Lyrics, 3=Rhythm/beat, 5=Other
+# Element: 1=Lyrics, 2=Melody, 3=Voice/timbre, 4=Not sure, 5=Other
 map_element <- function(x) {
   case_match(
     as.integer(x),
-    1L ~ "Melody",
-    2L ~ "Lyrics",
-    3L ~ "Rhythm/beat",
+    1L ~ "Lyrics",
+    2L ~ "Melody",
+    3L ~ "Voice/timbre",
+    4L ~ "Not sure",
     5L ~ "Other",
     .default = NA_character_
   )
