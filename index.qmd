@@ -1,6 +1,6 @@
 ---
 title: "Everyday Music Listening"
-author: "John Ashley Burgoyne"
+author: "Team 1"
 format:
   dashboard:
     orientation: columns
